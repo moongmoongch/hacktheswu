@@ -72,3 +72,7 @@ INSERT INTO users (username, password, role) VALUES ('admin', 'adminpass', 'admi
     <p>잠시 후 새 브라우저 탭이 자동으로 열리면서 React 애플리케이션이 실행됩니다.</p>
     </li>
 </ol>
+<hr><br><br><br>
+
+잘 안 되는 부분이 있다면 인터루드 회장 카카오톡으로 편하게 문의바랍니다!
+
