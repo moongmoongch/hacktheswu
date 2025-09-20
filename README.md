@@ -35,14 +35,10 @@
     <pre><code>cd jwt/jwt-backend</code></pre>
     </li>
     <li>필요한 라이브러리를 설치합니다.
-    <pre><code>npm install express mysql2 jsonwebtoken cors body-parser axios</code></pre>
+    <pre><code>npm install express mysql2 jsonwebtoken cors body-parser</code></pre>
     </li>
     <li>MySQL에 접속하여 아래 SQL 명령어를 실행해 데이터베이스와 테이블, 테스트용 계정을 생성합니다.
     <pre><code>
-create database hacking_tool;
-
-use hacking_tool;
-
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
@@ -67,12 +63,16 @@ INSERT INTO users (username, password, role) VALUES ('admin', 'adminpass', 'admi
     <li>새로운 터미널 창을 열고 프론트엔드 폴더로 이동합니다.
     <pre><code>cd jwt/jwt-frontend</code></pre>
     </li>
+    <li>필요한 라이브러리를 설치합니다.
+    <pre><code>npm install</code></pre>
+    </li>
     <li>React 앱을 실행합니다.
     <pre><code>npm start</code></pre>
     <p>잠시 후 새 브라우저 탭이 자동으로 열리면서 React 애플리케이션이 실행됩니다.</p>
     </li>
 </ol>
-<hr><br><br><br>
 
-잘 안 되는 부분이 있다면 인터루드 회장 카카오톡으로 편하게 문의바랍니다!
+<hr>
 
+<h2>5. 문의 사항</h2>
+<p>세팅 중 문제가 발생하거나 궁금한 점이 있으면 언제든지 문의해 주세요.</p>
