@@ -39,6 +39,10 @@
     </li>
     <li>MySQL에 접속하여 아래 SQL 명령어를 실행해 데이터베이스와 테이블, 테스트용 계정을 생성합니다.
     <pre><code>
+create database hacking_tool;
+
+use hacking_tool;
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
