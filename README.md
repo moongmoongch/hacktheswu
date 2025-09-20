@@ -44,7 +44,7 @@
     <pre><code>cd jwt/jwt-backend</code></pre>
     </li>
     <li>필요한 라이브러리를 설치합니다.
-    <pre><code>npm install express mysql2 jsonwebtoken cors body-parser</code></pre>
+    <pre><code>npm install express mysql2 jsonwebtoken cors body-parser axios</code></pre>
     </li>
     <li>MySQL에 접속하여 아래 SQL 명령어를 실행해 데이터베이스와 테이블, 테스트용 계정을 생성합니다.
     <pre><code>
